@@ -1,0 +1,51 @@
+html {
+    background: rgba(1, 46, 1, 0.664);
+    color: black;
+    box-sizing: border-box;
+}
+
+.white-key-container {
+    margin: 15vh 15vw;
+    width: 70vw;
+    position: relative;
+}
+.white-key {
+    text-align: center;
+    display: inline-block;
+    width: 8vw;
+    height: 30vh;
+    background: white;
+    border: 1px solid black;
+}
+
+.black-key-container {
+    margin: 10vh 5vw;
+    width: 70vw;
+}
+.black-key {
+    position: relative;
+    z-index: 1;
+    top: -30vh;
+    text-align: center;
+    display: inline-block;
+    width: 5vw;
+    height: 25vh;
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+#KeyW {
+    left: 4vw;
+}
+#KeyE {
+    left: 4vw;
+}
+#KeyT {
+    right: 40vw;
+}
+#KeyY {
+    right: 40vw;
+}
+#KeyU {
+    right: 40vw;
+} 

@@ -1,0 +1,34 @@
+html {
+    background: grey;
+    color: black;
+    box-sizing: border-box;
+}
+
+.white-key-container {
+    margin: 15vh 15vw;
+    width: 70vw;
+}
+.white-key {
+    text-align: center;
+    display: inline-block;
+    width: 8vw;
+    height: 30vh;
+    background: white;
+    border: 1px solid black;
+}
+
+.black-key-container {
+    top: -30px;
+    margin: 10vh 5vw;
+    width: 70vw;
+}
+.black-key {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    width: 5vw;
+    height: 25vh;
+    background: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,67 @@
+/*
+=== Basic Styling ===
+ */
+html {
+    background: rgba(1, 46, 1, 0.664);
+    color: black;
+    box-sizing: border-box;
+}
+
+/*
+=== Keyboard Styling ===
+*/
+.container {
+    position: relative;
+    width: 60vw;
+    height: 30vh;
+}
+/*
+=== White Keys Styling ===
+*/
+.white-keys {
+    margin: 15vh 15vw;
+    width: 70vw;
+    position: relative;
+}
+.white-key {
+    text-align: center;
+    display: inline-block;
+    width: 8vw;
+    height: 30vh;
+    background: white;
+    border: 1px solid black;
+}
+/*
+=== Black Keys Styling ===
+*/
+.black-keys {
+    margin: 10vh 5vw;
+    width: 70vw;
+}
+.black-key {
+    position: relative;
+    z-index: 1;
+    top: -30vh;
+    text-align: center;
+    display: inline-block;
+    width: 5vw;
+    height: 25vh;
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+#KeyW {
+    left: 5.5vw;
+}
+#KeyE {
+    left: 9vw;
+}
+#KeyT {
+    left: 20vw;
+}
+#KeyY {
+    left: 23vw;
+}
+#KeyU {
+    left: 26vw;
+} 
